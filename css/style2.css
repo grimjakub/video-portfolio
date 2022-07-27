@@ -70,10 +70,11 @@
         width: 80px;
         height: 3px;
         /* background-color: #FF9800; */
+        background-color: #868686;
     }
     
     .btn-01 {
-        /* background-color: #FF9800; */
+        background-color: #FF9800;
         color: #ffffff;
         border: 2px solid transparent;
         padding: 10px 35px;
@@ -89,8 +90,8 @@
     
     .btn-01:hover {
         background-color: transparent;
-        /* border-color: #FF9800; */
-        /* color: #FF9800; */
+        border-color: #FF9800;
+        color: #FF9800;
     }
     
     .btn-01:focus {
@@ -121,7 +122,7 @@
     .preloader .loader {
         height: 30px;
         width: 30px;
-        /* border: 2px solid #FF9800; */
+        border: 2px solid #FF9800;
         border-right: 2px solid transparent;
         border-radius: 50%;
         animation: ani01 2s linear infinite;
@@ -244,6 +245,7 @@
     .header.fixed .nav ul li a:hover,
     .header .nav ul li a:hover {
         color: #868686;
+        /* color: #FF9800; */
     }
     /* home section */
     
@@ -353,10 +355,6 @@
     
     .about-section {
         padding: 80px 0 0;
-    }
-    
-    .about-section p {
-        text-align: justify;
     }
     
     .about-section .about-img {
